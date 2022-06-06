@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"strings"
 
-	"dburl"
+	"github.com/hippopos/dburl"
 )
 
 // Entry is a passfile entry.

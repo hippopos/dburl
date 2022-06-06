@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"log"
 
-	"dburl"
+	"github.com/hippopos/dburl"
 )
 
 func Example_parse() {

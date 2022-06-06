@@ -4,8 +4,8 @@ import (
 	"log"
 	"os/user"
 
-	"dburl"
-	"dburl/passfile"
+	"github.com/hippopos/dburl"
+	"github.com/hippopos/dburl/passfile"
 )
 
 func Example_entries() {
