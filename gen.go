@@ -15,7 +15,7 @@ import (
 	"time"
 
 	"github.com/mattn/go-runewidth"
-	"github.com/xo/dburl"
+	"dburl"
 )
 
 func main() {
