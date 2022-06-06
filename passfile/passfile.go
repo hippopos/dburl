@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/xo/dburl"
+	"dburl"
 )
 
 // Entry is a passfile entry.

@@ -4,8 +4,8 @@ import (
 	"log"
 	"os/user"
 
-	"github.com/xo/dburl"
-	"github.com/xo/dburl/passfile"
+	"dburl"
+	"dburl/passfile"
 )
 
 func Example_entries() {

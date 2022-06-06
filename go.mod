@@ -1,3 +1,3 @@
-module github.com/hippopos/dburl
+module dburl
 
 go 1.18
