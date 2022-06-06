@@ -49,6 +49,7 @@ type Scheme struct {
 func BaseSchemes() []Scheme {
 	return []Scheme{
 		// core databases
+		{"dm", GenFromURL("dm://localhost:5439/"), 0, false, []string{"dm"}, "dm"},
 		{"mysql", GenMysql, TransportTCP | TransportUDP | TransportUnix, false, []string{"mariadb", "maria", "percona", "aurora"}, ""},
 		{"oracle", GenFromURL("oracle://localhost:1521"), 0, false, []string{"ora", "oci", "oci8", "odpi", "odpi-c"}, ""},
 		{"postgres", GenPostgres, TransportUnix, false, []string{"pg", "postgresql", "pgsql"}, ""},
